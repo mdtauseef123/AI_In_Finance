@@ -4,10 +4,10 @@ from twilio.rest import Client
 
 STOCK_NAME = "AXIS"
 COMPANY_NAME = "Axis Bank"
-TWILIO_SID = "ACefb6d7b3f5fb3fbd3dd3b82f4537deb8"
-TWILIO_AUTH_TOKEN = "b5c954e144de0b1285cadc73f095b785"
+TWILIO_SID = "twilio_sid"
+TWILIO_AUTH_TOKEN = "twilio_to"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
-NEWS_API_KEY = "7e58e64a472a416da431127b93f56eed"
+NEWS_API_KEY = "news_api_key"
 
 
 required_data = data_files.stocks_data[STOCK_NAME]
